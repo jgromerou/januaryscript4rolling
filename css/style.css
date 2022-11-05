@@ -1,0 +1,11 @@
+:root {
+  --blanco: #fff;
+  --negro: #111111;
+  --gris: #343a40;
+}
+.copyright {
+  background-color: var(--negro);
+  color: var(--blanco);
+  font-size: 2rem;
+  padding: 1rem;
+}
