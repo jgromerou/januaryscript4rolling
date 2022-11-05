@@ -30,6 +30,6 @@ const deleteFav = (objID) => {
     //setea a myFavs sin el objectID eliminado
     localStorage.setItem('myFavs', JSON.stringify(arrayWithoutItemDelete));
     alert(`Se eliminó de favoritos!`);
-    window.location.href = '/favorite.html';
+    window.location.href = '/januaryscript4rolling/favorite.html';
   }
 };
